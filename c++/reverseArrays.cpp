@@ -15,7 +15,6 @@ int main()
         cin>>arr[i];
     }
     cout<<"The reversed list is:";
-    int rl = (sizeof(arr) / sizeof(arr[0]));
     for(int i = 0; i < (sizeof(arr) / sizeof(arr[0])) - 1; i++)
     {
         temp = arr[i];
